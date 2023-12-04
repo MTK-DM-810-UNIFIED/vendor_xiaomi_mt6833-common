@@ -83,8 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
@@ -106,10 +104,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/gbe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gbe.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
@@ -131,8 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
@@ -207,14 +201,12 @@ PRODUCT_PACKAGES += \
     libladder \
     libmtk_drvb \
     libmtkcutils \
-    libmtkperf_client_vendor \
     libmtkproperty \
     libmtkrillog \
     libneuroeara \
     libneuropilot_hal_utils \
     libnir_neon_driver \
     libnir_neon_driver_ndk.mtk.vndk \
-    libperfctl_vendor \
     libstagefrighthw \
     libudf \
     libvpu5 \
@@ -288,7 +280,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.ccap@1.0-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
     vendor.mediatek.hardware.mms@1.6-impl \
-    vendor.mediatek.hardware.mtkpower@1.2-impl \
     lib3a.af.assist.utils \
     lib3a.af \
     lib3a.lce \
@@ -364,9 +355,6 @@ PRODUCT_PACKAGES += \
     libneuron_adapter \
     libneuron_platform \
     liboemcrypto \
-    libpower_timer \
-    libpowerhal \
-    libpowerhalwrap_vendor \
     libratconfig \
     librilfusion \
     libstereoinfoaccessor_vsdof \
@@ -434,7 +422,6 @@ PRODUCT_PACKAGES += \
     ccci_mdinit \
     ccci_rpcd \
     fuelgauged \
-    gbe \
     gsm0710muxd \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.drm@1.4-service.widevine \
@@ -446,7 +433,6 @@ PRODUCT_PACKAGES += \
     mtkfusionrild \
     tetheroffloadservice \
     vendor.mediatek.hardware.mms@1.6-service \
-    vendor.mediatek.hardware.mtkpower@1.0-service \
     vendor.mediatek.hardware.nvram@1.1-service \
     vtservice_hidl \
     lib3a.ccu.ddr \
