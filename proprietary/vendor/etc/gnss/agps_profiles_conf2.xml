@@ -360,7 +360,8 @@
       supl_version="1"
       tls_version="2"
       sha_version="1"
-      />
+  />
+
   <!--Peru. Auto config HSLP based on IMSI -->
   <supl_profile name="Entel"
       addr=""
@@ -518,12 +519,8 @@
         * available value: 10 ~ 500, default is 200
 
     lppe_dbh_cache_max_age:
-        The max age (in seconds) of cached network Locations
+        The max age (in seconds) of cached GNSS / network Locations
         available value: 1 ~ 1023, default is 120 (= 2 minutes)
-
-    lppe_dbh_gnss_cache_max_age:
-        The max age (in seconds) of cached GNSS Locations
-        available value: 1 ~ 1023, default is 10 (= 10 seconds)
 
     lppe_dbh_fill_gnss_when_bad_nlp_enable="false"
         * to decide if we can use GNSS location to fill LPPe DBH when no network location
@@ -541,7 +538,7 @@
     e911_open_gps="false"
     tc10_ignore_fw_config="false"
     lppe_network_location_disable="false"
-    agps_nvram_enable="false"
+    agps_nvram_enable="true"
     lbs_log_enable="false"
     lppe_crowd_source_confident="90"
     ignore_si_for_e911="false"
@@ -551,7 +548,6 @@
     lppe_dbh_nlp_accuracy_level_a="2000"
     lppe_dbh_nlp_accuracy_level_b="2000"
     lppe_dbh_cache_max_age="1024"
-    lppe_dbh_gnss_cache_max_age="1024"
     lppe_dbh_fill_gnss_when_bad_nlp_enable="false"
   />
 
@@ -958,7 +954,7 @@
 
   -->
   <up_setting
-    ca_enable="true"
+    ca_enable="false"
     ni_request="true"
     roaming="true"
     cdma_preferred="0"

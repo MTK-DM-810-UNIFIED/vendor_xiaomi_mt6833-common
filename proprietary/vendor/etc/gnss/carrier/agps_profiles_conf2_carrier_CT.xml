@@ -5,14 +5,20 @@
        auto_profile_enable is not supported.
   -->
 
+  <agps_setting
+      emergency_ext_secs="300"
+  />
+
+  <!-- qxwz: China Public Server on Internet -->
   <cur_supl_profile name="qxwz"
       addr="supl.qxwz.com"
       port="7275"
       tls="true"
-  />
-
-  <agps_setting
-      emergency_ext_secs="300"
+      mcc="460"
+      supl_version="2"
+      tls_version="1"
+      sha_version="0"
+      esupl_apn_mode="3"
   />
 
 </mtk_agps_profiles>

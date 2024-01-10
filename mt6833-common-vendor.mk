@@ -65,11 +65,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_ParamUnitDesc.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_AudioParam.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
@@ -81,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/ecc_list_OP17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP17.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
@@ -99,12 +95,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
+    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
+    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
+    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-mediatek.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
+    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
@@ -114,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
@@ -129,13 +123,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
+    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
@@ -171,25 +162,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
 
 PRODUCT_PACKAGES += \
+    libmtk_vt_wrapper \
+    libvcodec_cap \
+    libvcodec_capenc \
     libcomutils \
-    libfmjni \
     libimsma \
     libimsma_adapt \
     libimsma_rtp \
     libimsma_socketwrapper \
     libmtk_vt_service \
-    libmtk_vt_wrapper \
     libsignal \
     libsink \
     libsource \
-    libvcodec_cap \
-    libvcodec_capenc \
-    libvsim-adaptor-client \
     libvt_avsync \
+    libfmjni \
+    libvsim-adaptor-client \
     arm.graphics-V1-ndk_platform \
-    android.hardware.bluetooth@1.1-impl-mediatek \
-    memtrack.default \
-    vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
+    android.hardware.bluetooth@1.0-impl-mediatek \
+    memtrack.mt6833 \
+    vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
     vulkan.mali \
     libDefaultFpsActor \
@@ -197,19 +188,13 @@ PRODUCT_PACKAGES += \
     libNoFpsActor \
     libaal_key \
     libaedv \
-    libapu_mdw \
-    libapusys \
-    libapusys_edma \
-    libarmnn \
-    libarmnn_ndk.mtk.vndk \
+    libarmnn_ndk.mtk \
     libbluetooth_audio_session_mediatek \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
     libbt-vendor \
     libbwc \
-    libcmdl \
-    libcmdl_ndk.mtk.vndk \
-    libconnfem \
+    libcmdl_ndk.mtk \
     libgralloc_metadata \
     libgralloctypes_mtk \
     libgz_gp_client \
@@ -226,39 +211,29 @@ PRODUCT_PACKAGES += \
     libneuroeara \
     libneuropilot_hal_utils \
     libnir_neon_driver \
-    libnir_neon_driver_ndk.mtk.vndk \
+    libnir_neon_driver_ndk.mtk \
     libperfctl_vendor \
     libstagefrighthw \
     libudf \
-    libvpu5 \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
-    vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mms@1.0 \
     vendor.mediatek.hardware.mms@1.1 \
     vendor.mediatek.hardware.mms@1.2 \
     vendor.mediatek.hardware.mms@1.3 \
     vendor.mediatek.hardware.mms@1.4 \
     vendor.mediatek.hardware.mms@1.5 \
-    vendor.mediatek.hardware.mms@1.6 \
     vendor.mediatek.hardware.nvram@1.0 \
     vendor.mediatek.hardware.nvram@1.1 \
     vendor.mediatek.hardware.pq@2.0 \
     vendor.mediatek.hardware.pq@2.1 \
-    vendor.mediatek.hardware.pq@2.10 \
-    vendor.mediatek.hardware.pq@2.11 \
-    vendor.mediatek.hardware.pq@2.12 \
-    vendor.mediatek.hardware.pq@2.13 \
     vendor.mediatek.hardware.pq@2.2 \
     vendor.mediatek.hardware.pq@2.3 \
     vendor.mediatek.hardware.pq@2.4 \
     vendor.mediatek.hardware.pq@2.5 \
     vendor.mediatek.hardware.pq@2.6 \
-    vendor.mediatek.hardware.pq@2.7 \
-    vendor.mediatek.hardware.pq@2.8 \
-    vendor.mediatek.hardware.pq@2.9 \
     vendor.mediatek.hardware.videotelephony@1.0 \
     vendor.mediatek.hardware.nvram@1.1-impl \
+    libDR \
     libMtkOmxAdpcmDec \
     libMtkOmxApeDec \
     libMtkOmxCore \
@@ -266,7 +241,6 @@ PRODUCT_PACKAGES += \
     libMtkOmxMp3Dec \
     libMtkSpeechEnh \
     lib_iir \
-    libadpcmdec_mtk \
     libaudiocomponentengine_vendor \
     libaudiocomponentenginec \
     libaudiodcrflt_vendor \
@@ -276,23 +250,18 @@ PRODUCT_PACKAGES += \
     libbessound_hd_mtk_vendor \
     libblisrc32_vendor \
     libcvsd_mtk \
-    libmp3dec_mtk \
+    libmnl \
     libmtklimiter_vendor \
     libmtkshifter_vendor \
     libspeech_enh_lib \
+    libstorage_otp \
     libthermalalgo \
     libvcodec_oal \
-    libvcodecdrv_header_stub \
-    libvow_ap_test_ha \
-    libvow_ap_test_hh \
-    libvow_ap_test_nn \
-    vendor.mediatek.hardware.audio@7.1 \
-    vendor.mediatek.hardware.rcs@2.0 \
+    vendor.mediatek.hardware.audio@6.1 \
     APUWareUtilsServer \
     com.fingerprints.extension@1.0 \
-    android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
-    consumerir.common \
+    consumerir.mt6833 \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
     gatekeeper.beanpod \
@@ -300,16 +269,14 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.ccap@1.0-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
-    vendor.mediatek.hardware.mms@1.6-impl \
-    vendor.mediatek.hardware.mtkpower@1.2-impl \
-    lib3a.af.assist.utils \
+    vendor.mediatek.hardware.mms@1.5-impl \
+    vendor.mediatek.hardware.mtkpower@1.1-impl \
     lib3a.af \
     lib3a.lce \
     lib3a.log \
     lib3a.n3d3a \
     lib3a.sensors.color \
     lib3a.sensors.flicker \
-    libDR \
     libaaa_ltmx \
     libaiawb_moon \
     libaiawb_moon_model \
@@ -317,6 +284,7 @@ PRODUCT_PACKAGES += \
     libaiawb_sun_model \
     libalCFR \
     libarcsoft_low_light_hdr \
+    libarmnn \
     libcam.halsensor.hwintegration \
     libcamalgo.3dnr \
     libcamalgo.dngop \
@@ -324,8 +292,6 @@ PRODUCT_PACKAGES += \
     libcamalgo.lmv \
     libcamalgo.mfnr \
     libcamalgo.nr \
-    libcamalgo.platform \
-    libcamalgo.platform2 \
     libcamalgo.utility \
     libcamalgo.vpudsdn \
     libcamalgo.vsf \
@@ -333,6 +299,7 @@ PRODUCT_PACKAGES += \
     libcares_naptr \
     libcarrierconfig \
     libccci_util \
+    libcmdl \
     libdip_drv \
     libfeature_rss \
     libforkexecwrap \
@@ -340,16 +307,13 @@ PRODUCT_PACKAGES += \
     libgf_hal \
     libgoodixhwfingerprint \
     libifcutils_mtk \
-    libimagebuffer_wrapper \
     libimageio \
     libimsg_log \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
     liblpcnr \
     libm4u \
-    libmipc \
     libmnetlink_v104 \
-    libmnl \
     libmpbase \
     libmtk-ril \
     libmtkares \
@@ -377,19 +341,15 @@ PRODUCT_PACKAGES += \
     libneuron_adapter \
     libneuron_platform \
     liboemcrypto \
-    libpower_timer \
     libpowerhal \
     libpowerhalwrap_vendor \
     libratconfig \
     librilfusion \
     libstereoinfoaccessor_vsdof \
-    libstorage_otp \
     libsysenv \
     libteeclientjni \
     libteeclientjni@1.1 \
-    libteei_daemon_vfs \
     libtlcWidevineModularDrm \
-    libtrm \
     liburee_meta_drmkeyinstall \
     libvendor.goodix.hardware.biometrics.fingerprint@2.1 \
     libwifi-hal-mtk \
@@ -397,7 +357,7 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
     libmtkcam_streaminfo_plugin-p1stt \
-    vendor.mediatek.hardware.apuware.utils@2.0 \
+    vendor.mediatek.hardware.apuware.utils@1.0 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
@@ -407,11 +367,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.lomoeffect@1.0 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
-    vendor.mediatek.hardware.clientapi@1.0 \
-    vendor.mediatek.hardware.composer_ext@1.0 \
-    vendor.mediatek.hardware.mmagent@1.1 \
     vendor.mediatek.hardware.mtkradioex@2.0 \
-    vendor.mediatek.hardware.mtkradioex@3.0 \
+    vendor.mediatek.hardware.mtkradioex@2.5 \
     vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.power@2.0 \
     vendor.mediatek.hardware.videotelephony@1.0.system_ext \
@@ -425,10 +382,7 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
-    gnss-mediatek \
-    gnss@2.1-service \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_media_c2_V1_2_default \
+    manifest_android.hardware.drm@1.3-service.widevine \
     vtservice \
     bp_kmsetkey_ca \
     ccci_mdinit \
@@ -436,16 +390,14 @@ PRODUCT_PACKAGES += \
     fuelgauged \
     gbe \
     gsm0710muxd \
-    android.hardware.bluetooth@1.1-service-mediatek \
-    android.hardware.drm@1.4-service.widevine \
-    android.hardware.gnss-service.mediatek \
+    android.hardware.bluetooth@1.0-service-mediatek \
+    android.hardware.drm@1.3-service.widevine \
+    android.hardware.gnss@2.1-service-mediatek \
     android.hardware.graphics.allocator@4.0-service-mediatek \
-    android.hardware.keymaster@4.1-service.beanpod \
-    android.hardware.media.c2@1.2-mediatek \
+    android.hardware.keymaster@4.0-service.beanpod \
     android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     mtkfusionrild \
-    tetheroffloadservice \
-    vendor.mediatek.hardware.mms@1.6-service \
+    vendor.mediatek.hardware.mms@1.5-service \
     vendor.mediatek.hardware.mtkpower@1.0-service \
     vendor.mediatek.hardware.nvram@1.1-service \
     vtservice_hidl \
@@ -457,7 +409,6 @@ PRODUCT_PACKAGES += \
     netdagent \
     thermal \
     thermalloadalgod \
-    volte_clientapi_ua \
     wlan_assistant \
     wmt_launcher \
     wmt_loader
