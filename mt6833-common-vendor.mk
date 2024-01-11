@@ -175,7 +175,6 @@ PRODUCT_PACKAGES += \
     libsink \
     libsource \
     libvt_avsync \
-    libfmjni \
     libvsim-adaptor-client \
     arm.graphics-V1-ndk_platform \
     android.hardware.bluetooth@1.0-impl-mediatek \
