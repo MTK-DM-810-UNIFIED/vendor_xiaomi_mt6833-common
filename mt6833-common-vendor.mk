@@ -182,7 +182,6 @@ PRODUCT_PACKAGES += \
     memtrack.mt6833 \
     vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
-    vulkan.mali \
     libDefaultFpsActor \
     libFrameRecord \
     libNoFpsActor \
