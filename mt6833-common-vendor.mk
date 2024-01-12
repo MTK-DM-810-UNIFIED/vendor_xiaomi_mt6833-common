@@ -393,6 +393,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gpu@1.0-service \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     manifest_android.hardware.drm@1.3-service.widevine \
+    power-default \
     vtservice \
     bp_kmsetkey_ca \
     ccci_mdinit \
