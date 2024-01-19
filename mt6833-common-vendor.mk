@@ -127,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
-    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
@@ -176,7 +175,6 @@ PRODUCT_PACKAGES += \
     arm.graphics-V1-ndk_platform \
     android.hardware.bluetooth@1.1-impl-mediatek \
     memtrack.default \
-    vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
     vulkan.mali \
     libDefaultFpsActor \
@@ -189,7 +187,6 @@ PRODUCT_PACKAGES += \
     libapusys_edma \
     libarmnn \
     libarmnn_ndk.mtk.vndk \
-    libbluetooth_audio_session_mediatek \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
     libbt-vendor \
@@ -218,8 +215,6 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libudf \
     libvpu5 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mms@1.0 \
     vendor.mediatek.hardware.mms@1.1 \
@@ -274,6 +269,8 @@ PRODUCT_PACKAGES += \
     libvow_ap_test_hh \
     libvow_ap_test_nn \
     vendor.mediatek.hardware.audio@7.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.rcs@2.0 \
     APUWareUtilsServer \
     com.fingerprints.extension@1.0 \
@@ -338,6 +335,7 @@ PRODUCT_PACKAGES += \
     libmnetlink_v104 \
     libmnl \
     libmpbase \
+    libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
     libmtkares \
     libmtkcam.eventcallback \
@@ -355,6 +353,7 @@ PRODUCT_PACKAGES += \
     libmtkconfig \
     libmtkconfigutils \
     libmtkhardware_legacy \
+    libmtkmipc-ril \
     libmtknetcap \
     libmtknetutils \
     libmtkrilutils \
@@ -379,6 +378,8 @@ PRODUCT_PACKAGES += \
     libtrm \
     liburee_meta_drmkeyinstall \
     libvendor.goodix.hardware.biometrics.fingerprint@2.1 \
+    libvia-ril \
+    libviamipc-ril \
     libwifi-hal-mtk \
     libwpfa \
     libwvhidl \
