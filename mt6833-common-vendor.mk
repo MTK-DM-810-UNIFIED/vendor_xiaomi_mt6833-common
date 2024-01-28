@@ -172,6 +172,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libcomutils \
+    libem_support_jni \
     libfmjni \
     libimsma \
     libimsma_adapt \
@@ -423,11 +424,10 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.power@2.0 \
     vendor.mediatek.hardware.videotelephony@1.0.system_ext \
-    libem_support_jni \
+    EngineerMode \
     ImsService \
     HotwordEnrollmentOKGoogleRISCV \
     HotwordEnrollmentXGoogleRISCV \
-    EngineerMode \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
