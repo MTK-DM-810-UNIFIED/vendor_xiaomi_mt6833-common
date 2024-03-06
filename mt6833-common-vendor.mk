@@ -274,6 +274,7 @@ PRODUCT_PACKAGES += \
     libblisrc32_vendor \
     libcvsd_mtk \
     libmp3dec_mtk \
+    libmsbc_mtk \
     libmtklimiter_vendor \
     libmtkshifter_vendor \
     libspeech_enh_lib \
