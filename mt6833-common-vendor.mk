@@ -107,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
+    vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
     vendor/xiaomi/mt6833-common/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
@@ -201,7 +202,9 @@ PRODUCT_PACKAGES += \
     libvt_avsync \
     arm.graphics-V1-ndk_platform \
     android.hardware.bluetooth@1.1-impl-mediatek \
+    android.hardware.thermal@2.0-impl \
     memtrack.default \
+    thermal_hal \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
     vulkan.mali \
     libDefaultFpsActor \
@@ -472,6 +475,7 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1-service.beanpod \
     android.hardware.media.c2@1.2-mediatek \
     android.hardware.neuralnetworks@1.3-service-mtk-neuron \
+    android.hardware.thermal@2.0-service.mtk \
     mtkfusionrild \
     tetheroffloadservice \
     vendor.mediatek.hardware.mms@1.6-service \
